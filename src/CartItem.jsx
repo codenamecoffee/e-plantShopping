@@ -16,8 +16,8 @@ const CartItem = ({ onContinueShopping }) => {
     return totalCost;
   };
 
-  const handleContinueShopping = (e) => {
-    onContinueShopping(e);
+  const handleContinueShopping = (event) => {
+    onContinueShopping(event);
   };
 
   const handleIncrement = (item) => {
@@ -37,7 +37,7 @@ const CartItem = ({ onContinueShopping }) => {
     dispatch(removeItem(item.name));
   };
 
-  const handleCheckoutShopping = (e) => {
+  const handleCheckoutShopping = (event) => {
     alert('Functionality to be added for future reference');
   };
 
@@ -69,9 +69,9 @@ const CartItem = ({ onContinueShopping }) => {
       </div>
       <div style={{ marginTop: '20px', color: 'black' }} className='total_cart_amount'></div>
       <div className="continue_shopping_btn">
-        <button className="get-started-button" onClick={(e) => handleContinueShopping(e)}>Continue Shopping</button>
+        <button className="get-started-button" onClick={(event) => handleContinueShopping(event)}>Continue Shopping</button>
         <br />
-        <button className="get-started-button1">Checkout</button>
+        <button className="get-started-button1" onClick={(event) => handleCheckoutShopping(event)}>Checkout</button>
       </div>
     </div>
   );
