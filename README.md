@@ -30,21 +30,21 @@ The project demonstrates practical use of React components, state management, co
 
 - Each plant includes:
 
-1. Thumbnail image
+Thumbnail image
 
-2. Name
+Name
 
-3. Price
+Price
 
-4. “Add to Cart” button
+“Add to Cart” button
 
 - Header with:
 
-1. Navigation
+Navigation
 
-2. Shopping cart icon
+Shopping cart icon
 
-3. Dynamic item counter
+Dynamic item counter
 
 <br>
 
@@ -54,33 +54,33 @@ The project demonstrates practical use of React components, state management, co
 
 - Shows:
 
-1. Plant thumbnail and name
+Plant thumbnail and name
 
-2. Unit price
+Unit price
 
-3. Quantity
+Quantity
 
-4. Total price per item
+Total price per item
 
 - Allows:
 
-1. Increasing quantity
+Increasing quantity
 
-2. Decreasing quantity
+Decreasing quantity
 
-3. Removing items
+Removing items
 
 - Displays:
 
-1. Total number of items
+Total number of items
 
-2. Total cost
+Total cost
 
 - Includes:
 
-1. Continue Shopping button
+Continue Shopping button
 
-2. Checkout button
+Checkout button
 
 - Shopping cart icon updates dynamically
 
